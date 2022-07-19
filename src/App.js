@@ -1,5 +1,5 @@
- import React, {useState} from 'react';
-
+import React, {useState} from 'react';
+import LoginForm from './komponentai/LoginForm';
 function App() {
   const adminUser={
     email: "ITadminas@adm.com",
@@ -16,16 +16,16 @@ const Logout = ()=>{
 }
 return (
     <div className="App">
-     {(user.email !="")}? (
-      <div className='Sveiki prisijunge'>
-        <h2>Sveiki prisijunge<span>{user.name}</span></h2>
+     {(user.email !="")}
+      <div className='Sveiki pagaliau prisijungę!'>
+        <h2>Sveiki pagaliau prisijungę!<span>{user.name}</span></h2>
         <button> Logout</button>
       </div>
       
-     ):(
-      <LoginForm/>
+    
+      <LoginForm Login={Login} error={error}/>
      )
-
+   
     </div>
   );
 }
