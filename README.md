@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# pasikuriu Windows komandineje eilutej npx react pradzia
+# atpumpuoja visus reacto dalykus
+# nusirodau nauja folderi
+#atsidarau ji i vsc
+# pasitikrinu jame ar veikia npm /npm test
+#app.js faile nusirodau kad importuotu React use State hooka 
+#App funkcijoje  nusirodau admino maila ir passworda
+#
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+t was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
