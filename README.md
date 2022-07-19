@@ -1,3 +1,3 @@
 # Baigiamasis-praktinis
-React Node Express Login App
+Full Stack  Login App
 pridejau pagrindinius etapus  read.me faile projekto readme.md
